@@ -22,6 +22,13 @@ for (let i=1; i<=100; i++) {
     } else {
         console.log(i);
     }
+
+    // OUTPUT
+    const col = document.createElement("div");
+    col.classList.add("col");
+    col.innerHTML = fizzBuzz;
+    row.append(col);
+ 
 }
 
 
