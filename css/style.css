@@ -26,11 +26,23 @@ h1 {
 }
 
 .col {
-    width: calc(100% / 5);
+    width: calc(100% / 7);
     height: 100px;
     background-color: white;
     border: 2px solid black;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.fizz {
+    background-color: red;
+}
+
+.buzz {
+    background-color: aqua;
+}
+
+.fizzBuzz {
+    background-color: yellow;
 }

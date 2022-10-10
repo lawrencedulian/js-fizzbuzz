@@ -20,15 +20,18 @@ for (let i=1; i<=100; i++) {
         fizzBuzz = "buzz";
         console.log(fizzBuzz);
     } else {
-        console.log(i);
+        fizzBuzz = i;
+        console.log(fizzBuzz);
     }
 
     // OUTPUT
     const col = document.createElement("div");
     col.classList.add("col");
-    col.innerHTML = fizzBuzz;
+    col.innerHTML = fizzBuzz ;
     row.append(col);
- 
+    
+    // col = `<div class="col ${fizzBuzz}">${i}</div>`;
+    // row.innerHTML += col;
 }
 
 
